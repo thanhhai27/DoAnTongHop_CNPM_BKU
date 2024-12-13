@@ -1,0 +1,120 @@
+body{
+    background: url('/authenticate/asset/images/slbk.jpg');
+    background-size: cover;
+    font-family: "Inter", sans-serif;
+}
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+#form-register{
+    max-width: 450px;
+    height: 395px;
+    background: rgba(28, 28, 28, 0.8);
+    flex-grow: 1;
+    padding: 20px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgba(132, 132, 132, 0.8);
+    border-radius: 7px;
+}
+.form-img-overall{
+    display: flex;
+    justify-content: center;
+}
+.form-img{
+    width: 100px;
+    padding-bottom: 15px;
+}
+.form-heading{
+    font-size: 25px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+    font-size: 16px;
+}
+.form-group i{
+    color: #fff;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-top: 3px;
+}
+.eye i{
+    padding-right: 0;
+    cursor: pointer;
+}
+
+.form-submit{
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.form-submit:hover{
+    background: #fff;
+    color: black;
+}
+.form-submit:active{
+    transform: scale(0.95);
+}
+
+.form-return {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.form-return .return {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #00bfff;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.form-return .return:hover {
+    background-color: rgba(0, 191, 255, 0.2);
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.form-return .return:active {
+    color: #87cefa;
+    transform: scale(0.98);
+}
+
+/* phần báo lỗi */
+#form-register .error-message{
+    color: red; 
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: 3px;
+}

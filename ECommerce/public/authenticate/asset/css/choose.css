@@ -1,0 +1,83 @@
+body {
+    background: url('/authenticate/asset/images/slbk.jpg');
+    background-size: cover;
+}
+#choose-page{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+#form-choose {
+    max-width: 450px;
+    height: auto;
+    background: rgba(28, 28, 28, 0.85);
+    padding: 30px 40px;
+    box-shadow: 0px 0px 20px 3px rgba(132, 132, 132, 0.9);
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.form-choose-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.form-img {
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.form-choose-heading {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+#form-choose a {
+    display: block;
+    width: 80%; /* Adjusted to make buttons narrower */
+    max-width: 300px; /* Set a maximum width for buttons */
+    padding: 15px;
+    margin: 10px auto; /* Centers the button */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+    font-size: 18px;
+    border: 2.5px solid transparent;
+}
+
+#form-choose a:nth-child(3) {
+    border-color: #f44336;
+    background-color: rgba(228, 46, 43, 0.3);
+    color: #FFFFFF;
+}
+
+#form-choose a:nth-child(3):hover {
+    background: #f44336;
+}
+
+#form-choose a:nth-child(3):active{
+    transform: scale(0.95);
+}
+
+#form-choose a:nth-child(4) {
+    border-color: #4CAF50;
+    background-color: rgba(48, 140, 53, 0.3);
+    color: #FFFFFF;
+}
+
+#form-choose a:nth-child(4):hover {
+    background: #4CAF50;
+}
+
+#form-choose a:nth-child(4):active{
+    transform: scale(0.95);
+}
+
